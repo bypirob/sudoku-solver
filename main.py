@@ -24,7 +24,7 @@ def read_sudoku(file: str):
 
 def print_matrix(matrix: list[list[int]]):
   y = 0
-  x = 0
+  x = 0
   for row in matrix:
     if y % 3 == 0:
       print()
